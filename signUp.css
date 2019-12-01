@@ -1,0 +1,127 @@
+* {
+	margin:0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+label {
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input#name {
+  margin-top:5px;
+  margin-bottom: 20px;
+}
+
+input#lastname {
+  margin-top:5px;
+  margin-bottom: 20px;
+}
+
+input#email {
+  margin-top:5px;
+  margin-bottom: 20px;
+}
+
+input.password {
+  margin-top:5px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #6c63ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0px 20px 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button#signUp {
+  border:2px solid white;
+  border-radius: 8%;
+  padding:10px 10px;
+  width:57%;
+  margin:10px 0px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button#cancelbtn {
+  border:2px solid white;
+  border-radius: 8%;
+  width: auto;
+  padding: 10px 40px;
+  margin:0px;
+  background-color: #f44336;
+}
+
+a#loginNow {
+  color:black;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 900;
+  margin-left:10px;
+}
+
+p {
+  box-shadow: 5px 5px 4px 0px rgb(2, 0, 0);
+  margin-left:auto;
+  margin-right: auto;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px 0px;
+  margin-bottom:40px;
+  width:50%;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 10px 450px 10px 450px;
+}
+
+div#secondContainer {
+  margin-bottom: 60px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
